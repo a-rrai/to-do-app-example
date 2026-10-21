@@ -17,7 +17,10 @@ Aplikasi ini memungkinkan pengguna untuk mengelola daftar kegiatan harian mereka
 *   **Bahasa Pemrograman:** Dart
 *   **Font:** [Outfit](https://fonts.google.com/specimen/Outfit) (Google Fonts)
 
-## 🚀 Cara Menjalankan Aplikasi
+## Demo Aplikasi
+* **Link Video Demo:** https://drive.google.com/file/d/1Fa8l7igYTEsN1XTkmdfoCgDzKAlgiUNh/view?usp=sharing 
+
+## Cara Menjalankan Aplikasi
 
 1. Pastikan Flutter SDK sudah terpasang di komputermu.
 2. *Clone* repositori ini atau unduh *source code*-nya.
