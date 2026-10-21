@@ -1,17 +1,26 @@
-# to_do_app
+# To-Do List App 📝
 
-A new Flutter project.
+Aplikasi To-Do List sederhana berbasis Flutter yang dirancang dengan antarmuka yang bersih dan interaktif. Proyek ini dibuat sebagai pemenuhan tugas untuk mata kuliah **Pemrograman Perangkat Bergerak (Mobile)**.
 
-## Getting Started
+## Deskripsi Proyek
+Aplikasi ini memungkinkan pengguna untuk mengelola daftar kegiatan harian mereka. Sistem dibangun menggunakan `StatefulWidget` untuk menangani perubahan status (*state management*) secara *real-time* tanpa memerlukan *database* eksternal untuk versi dasar ini.
 
-This project is a starting point for a Flutter application.
+## Fitur Utama
+*   **Create:** Menambahkan tugas baru lengkap dengan judul dan rentang waktu melalui *Bottom Sheet*.
+*   **Read:** Menampilkan daftar tugas secara dinamis. Terdapat tampilan khusus (*Empty State*) jika daftar tugas masih kosong.
+*   **Update:** Mengedit detail tugas (judul dan waktu) yang sudah dibuat sebelumnya.
+*   **Delete:** Menghapus tugas dari daftar.
+*   **Toggle Status:** Menceklis tugas yang sudah diselesaikan (teks akan dicoret secara otomatis).
 
-A few resources to get you started if this is your first Flutter project:
+## Teknologi yang Digunakan
+*   **Framework:** Flutter
+*   **Bahasa Pemrograman:** Dart
+*   **Font:** [Outfit](https://fonts.google.com/specimen/Outfit) (Google Fonts)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🚀 Cara Menjalankan Aplikasi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Pastikan Flutter SDK sudah terpasang di komputermu.
+2. *Clone* repositori ini atau unduh *source code*-nya.
+3. Buka terminal di dalam folder proyek (`to_do_app`) dan jalankan perintah berikut untuk mengunduh dependensi:
+   ```bash
+   flutter pub get
